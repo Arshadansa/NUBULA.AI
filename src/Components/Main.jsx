@@ -23,7 +23,7 @@ function Main() {
   };
 
   return (
-    <section className="max-w-screen-xl pt-20 p-3 lg:p-0 flex justify-center flex-col mx-auto text-white ">
+    <section className="max-w-screen-xl pt-20 px-3 lg:px-0 flex justify-center flex-col mx-auto text-white ">
       <div className="  flex-wrap gap-3 flex flex-col gap justify-center items-center">
         <div>
           <p

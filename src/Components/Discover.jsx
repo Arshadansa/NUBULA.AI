@@ -15,7 +15,7 @@ function Discover() {
 
   return (
     <section className="xl:max-w-screen-2xl p-3 flex justify-center  relative  text-white  md:py-12 mx-auto">
-      <img src={bgimage} className="  absolute -right-2  bottom-0  " alt="" />
+      <img src={bgimage} className=" object-contain  absolute lg:-right-2  bottom-0  " alt="" />
       <div className="flex flex-col md:flex-row   md:gap-24 gap-10 items-center">
         <div className=" leading-none ">
           <p className="lg:text-[100px]  text-5xl " style={textGradientStyle}>

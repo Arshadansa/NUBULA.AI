@@ -28,13 +28,13 @@ function CardInsight() {
 };
 
   return (
-    <section  style={myStyle} className="max-w-screen-xl p-3 py-12 mx-auto text-white">
-      <div className="text-center">
-        <p style={textGradientStyle} className="lg:text-[70px] text-4xl">
+    <section  style={myStyle} className="max-w-screen-xl px-3 md:px-0 py-12 mx-auto text-white">
+      <div className="text-center ">
+        <p style={textGradientStyle} className="lg:text-[70px] md:text-6xl text-4xl">
           Ai - Powered Market Insights
         </p>
       </div>
-      <div className="flex flex-wrap gap-5  mt-12  justify-center ">
+      <div className="flex flex-wrap gap-5   mt-12  justify-center ">
         <div className="relative flex flex-col rounded-3xl border border-gray-700 p-3 items-center justify-center h-96 w-72">
           <img
             src={bgElements}
