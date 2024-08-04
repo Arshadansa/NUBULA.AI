@@ -6,6 +6,7 @@ import Discover from "../Components/Discover";
 import OurStory from "../Components/OurStory";
 import Tokenomics from "../Components/Tokenomics";
 import Footer from "../Components/Footer";
+import TimeLine from "../Components/TimeLine";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Discover />
       <OurStory />
       <Tokenomics />
+      <TimeLine />
       <Footer />
     </section>
   );
