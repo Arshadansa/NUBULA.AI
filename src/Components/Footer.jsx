@@ -13,20 +13,20 @@ function Footer() {
   };
 
   return (
-    <footer style={myStyle} className="flex  h-[600px] md:h-[550px] items-end ">
+    <footer style={myStyle} className="flex p-3 lg:p-0  h-[700px]  lg:h-[550px] items-end ">
       <div className="mx-auto w-full  flex flex-col justify-between max-w-screen-xl h-full md:h-[80%] p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 mt-3  md:mb-0">
-            <p className="self-center text-2xl text-white font-light   whitespace-nowrap ">
+          <div className="mb-7 mt-3  md:mb-0">
+            <p className="self-center text-2xl md:text-xl lg:text-2xl text-white font-light   whitespace-nowrap ">
               The Fastest Ai
             </p>
-            <p className="self-center text-2xl text-white font-light   whitespace-nowrap ">
+            <p className="self-center text-2xl md:text-xl lg:text-2xl text-white font-light   whitespace-nowrap ">
               Experience Ever Made
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-4">
-            <div>
-              <h2 className="mb-6  text-white   font-light ">Company</h2>
+            <div className="order-2 md:order-1 ">
+              <h2 className="mb-6  text-white  font-light ">Company</h2>
               <ul className="text-white/70 font-extralight">
                 <li className="mb-4">
                   <a
@@ -49,8 +49,8 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className="mb-6 font-light text-white ">Product</h2>
+            <div className="order-1 lg:order-2">
+              <h2 className="mb-6 font-light  text-white ">Product</h2>
               <ul className="text-white/70 font-extralight">
                 <li className="mb-4">
                   <a href="" className="hover:underline ">
@@ -84,7 +84,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="lg:order-3">
               <h2 className="mb-6  font-light text-white  ">Support</h2>
               <ul className="text-white/70 font-extralight ">
                 <li className="mb-4">
@@ -104,7 +104,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="lg:order-4">
               <h2 className="mb-6 font-extralight text-white  ">Legal</h2>
               <ul className="text-white/70 font-medium">
                 <li className="mb-4 font-extralight">

@@ -28,9 +28,9 @@ function CardInsight() {
 };
 
   return (
-    <section  style={myStyle} className="max-w-screen-xl  py-12 mx-auto text-white">
+    <section  style={myStyle} className="max-w-screen-xl p-3 py-12 mx-auto text-white">
       <div className="text-center">
-        <p style={textGradientStyle} className="text-[70px] text">
+        <p style={textGradientStyle} className="lg:text-[70px] text-4xl">
           Ai - Powered Market Insights
         </p>
       </div>

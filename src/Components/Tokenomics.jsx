@@ -18,8 +18,8 @@ function Tokenomics() {
 
   return (
     <section
-      style={myStyleCard}
-      className="mx-auto md:h-[624px] max-w-screen-xl   "
+      // style={}
+      className="mx-auto  md:h-[624px] max-w-screen-xl   "
     >
       <div className="text-white flex gap-5  flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 ">
@@ -27,7 +27,7 @@ function Tokenomics() {
         </div>
         <div className="flex md:w-2/3   flex-col gap-3 md:gap-2">
           <div className="">
-            <p style={textGradientStyle} className="md:text-[100px] text-5xl ">
+            <p style={textGradientStyle} className="lg:text-[100px] text-5xl ">
               Tokenomics
             </p>
           </div>

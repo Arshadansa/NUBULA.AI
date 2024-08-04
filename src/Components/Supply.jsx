@@ -28,7 +28,7 @@ function Supply() {
   };
 
   return (
-    <div className="max-w-screen-xl flex flex-col justify-center items-center  flex-wrap">
+    <div className="max-w-screen-xl p-3 lg:p-0 flex flex-col justify-center items-center  flex-wrap">
       <div className="w-full flex flex-col flex-wrap md:items-center md:pt-12 justify-center ">
         <div className="lg:w-96 w-80   rounded-lg">
           <CanvasJSChart options={options} />

@@ -14,14 +14,14 @@ function Discover() {
 
 
   return (
-    <section className="max-w-screen-2xl flex justify-center  relative  text-white  py-12 mx-auto">
-      <img src={bgimage} className="  absolute -right-2 bottom-0  " alt="" />
-      <div className="flex flex-col md:flex-row   gap-24  items-center">
+    <section className="xl:max-w-screen-2xl p-3 flex justify-center  relative  text-white  md:py-12 mx-auto">
+      <img src={bgimage} className="  absolute -right-2  bottom-0  " alt="" />
+      <div className="flex flex-col md:flex-row   md:gap-24 gap-10 items-center">
         <div className=" leading-none ">
-          <p className="lg:text-[100px] " style={textGradientStyle}>
+          <p className="lg:text-[100px]  text-5xl " style={textGradientStyle}>
             Discover{" "}
           </p>
-          <p className="lg:text-[100px]  " style={textGradientStyle}>
+          <p className="lg:text-[100px] text-5xl  " style={textGradientStyle}>
             the Benefits
           </p>
         </div>
@@ -36,13 +36,13 @@ function Discover() {
             </div>
             <div>
               <p>Staking & Profit Sharing</p>
-              <p className=" text-[#FFFFFF] text-sm  font-thin ">
+              <p className=" text-[#FFFFFF] text-xs md:text-sm  font-thin ">
                 Earn rewards by staking your assets and sharing in the
               </p>
-              <p className=" text-[#FFFFFF] text-sm  font-thin ">
+              <p className=" text-[#FFFFFF] text-xs md:text-sm font-thin ">
                 profits. Engage with the ecosystem and see your assets
               </p>
-              <p className=" text-[#FFFFFF] text-sm  font-thin ">
+              <p className=" text-[#FFFFFF] text-xs md:text-sm font-thin ">
                 grow over time.
               </p>
             </div>

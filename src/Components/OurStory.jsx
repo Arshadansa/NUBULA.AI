@@ -31,25 +31,25 @@ function OurStory() {
   };
 
   return (
-    <section className="max-w-screen-xl py-16        mx-auto">
+    <section className="max-w-screen-xl p-3 md:py-16        mx-auto">
       <div className="flex flex-col md:flex-row justify-between   items-center  ">
-        <div className="flex md:w-1/2 flex-col gap-2">
+        <div className="flex md:w-1/2 flex-col gap-4 md:gap-2">
           <div>
-            <p style={textGradientStyle} className="text-[100px] text">
+            <p style={textGradientStyle} className="lg:text-[100px] text-6xl text-center md:text-start">
               Our Story
             </p>
           </div>
-          <div className=" leading-none text-[60px] text-white">
+          <div className=" md:leading-none md:text-start text-center text-3xl lg:text-[60px] text-white">
             <p>Numbers are </p>
             <p>telling our story</p>
           </div>
-          <div className=" font-thin mt-4  text-[#A1A1AA]">
+          <div className=" font-thin mt-4 text-center text-xl md:text-start  text-[#A1A1AA]">
             <p>Amet minim mollit non deserunt ullamco est sit aliqua</p>
             <p>dolor do amet sint. Velit officia consequat duis enim </p>
             <p>velit mollit.</p>
           </div>
         </div>
-        <div style={myStyle} className=" md:w-1/2 py-32 flex  justify-center  ">
+        <div style={myStyle} className="w-[100%] md:w-1/2  py-32 flex  justify-center  ">
           <div
             style={myStyleCard}
             className="border-0  border-gray-900 rounded-md"

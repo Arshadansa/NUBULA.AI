@@ -9,7 +9,7 @@ import Footer from "../Components/Footer";
 
 function Home() {
   return (
-    <section className="bg-[#000000] sm:h-full ">
+    <section className="bg-[#000000]  sm:h-full  ">
       <Navbar />
       <Main />
       <CardInsight />
