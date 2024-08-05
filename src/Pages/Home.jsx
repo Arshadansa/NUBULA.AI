@@ -6,7 +6,7 @@ import Discover from "../Components/Discover";
 import OurStory from "../Components/OurStory";
 import Tokenomics from "../Components/Tokenomics";
 import Footer from "../Components/Footer";
-import TimeLine from "../Components/TimeLine";
+import Roadmap from "../Components/RoadMap";
 
 function Home() {
   return (
@@ -16,8 +16,12 @@ function Home() {
       <CardInsight />
       <Discover />
       <OurStory />
-      <Tokenomics />
-      <TimeLine />
+      <div className="p-3 lg:p-0">
+        <Tokenomics />
+      </div>
+      <div className="p-3  lg:p-0">
+        <Roadmap />
+      </div>
       <Footer />
     </section>
   );
