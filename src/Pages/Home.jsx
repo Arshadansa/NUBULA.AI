@@ -16,10 +16,10 @@ function Home() {
       <CardInsight />
       <Discover />
       <OurStory />
-      <div className="p-3 lg:p-0">
+      <div className="p-3 xl:p-0">
         <Tokenomics />
       </div>
-      <div className="p-3  lg:p-0">
+      <div className="p-3  xl:p-0">
         <Roadmap />
       </div>
       <Footer />
