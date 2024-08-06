@@ -28,8 +28,8 @@ function Tokenomics() {
           <Supply />
         </div>
         <div className="flex md:w-2/3   flex-col gap-3 md:gap-2">
-          <div className="">
-            <p style={textGradientStyle} className="lg:text-[100px] text-5xl ">
+          <div className="pl-2 md:pl-0">
+            <p style={textGradientStyle} className="xl:text-[100px] lg:text-5xl text-4xl ">
               Tokenomics
             </p>
           </div>
@@ -51,7 +51,7 @@ function Tokenomics() {
                   className="text-[#F72585] absolute left-6"
                 />
                 <div className="flex items-center gap-1 pl-6 ">
-                  <span className=" font-semibold text-lg  ">
+                  <span className=" md:font-semibold text-lg  ">
                     Total Supply:
                   </span>
                   <p className=" font-extralight ">1,000,000,000 NEBULA</p>
@@ -59,21 +59,21 @@ function Tokenomics() {
               </div>
               <div className="">
                 <div className="flex items-center gap-1 ">
-                  <span className=" font-semibold text-lg  ">Supply:</span>
+                  <span className=" md:font-semibold text-lg  ">Supply:</span>
                   <p className=" font-extralight ">NEBULA</p>
                 </div>
                 <div className="flex items-center gap-1 ">
-                  <span className=" font-semibold text-lg  ">Network:</span>
+                  <span className=" md:font-semibold text-lg  ">Network:</span>
                   <p className=" font-extralight ">Ethereum (ERC-20)</p>
                 </div>
                 <div className="flex items-center gap-1 ">
-                  <span className=" font-semibold text-lg  ">
+                  <span className=" md:font-semibold text-lg  ">
                     Buy/Sell Tax:
                   </span>
                   <p className=" font-extralight ">5%</p>
                 </div>
                 <div className="flex items-center gap-1 ">
-                  <span className=" font-semibold text-lg  ">
+                  <span className=" md:font-semibold text-lg  ">
                     Contract Address:
                   </span>
                   <p className=" font-extralight ">0x123...abc</p>
